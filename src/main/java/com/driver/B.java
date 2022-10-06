@@ -1,6 +1,8 @@
 package com.driver;
 
 public class  B extends A{
+
+    public B(){}
 //
 //    A obj1= new B();
 //    String ans  = obj1.meth();
