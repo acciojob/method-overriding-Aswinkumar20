@@ -10,6 +10,6 @@ public class  B extends A{
         A obj1= new A();
         String ans  = obj1.meth();
         System.out.println(ans);
-        return "Method is overridden in Extended class B";
+        return "Method is overridden in Extendend class B";
     }
 }
