@@ -10,9 +10,13 @@ public class Main {
     }
 
     public static class B extends A {
+        public B(){}
+
 
         @Override
         public String meth() {
+            A obj =new A();
+            obj.meth();
             return "Method is overridden in Extendend class B";
         }
     }
